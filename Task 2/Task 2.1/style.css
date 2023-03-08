@@ -1,0 +1,83 @@
+.parent{
+    width: 600px;
+    height: 250px;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Verdana", sans-serif;
+}
+
+.child-1 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.child-1 button{
+    margin-left: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    border:none;
+    background-color:rgb(83, 202, 206);
+    color: white;
+    border-radius:4px;
+    width: 95%;
+}
+
+.child-2 {
+    margin-top: 60px;
+    margin-bottom: 90px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} 
+.child-2 button{
+    color: gray ;
+    margin-left: 8px;
+    background-color: white;
+    border: 0.5px solid gray;
+    border-radius: 4px  ;
+    font-size: xx-small;
+
+}
+input[type=text] {
+    padding:10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: gray;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    outline-width: none;
+    outline: none;
+  }
+
+  .grand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+.next{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+  }
+  .next button{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border:none;
+    background-color:rgb(76, 176, 80);
+    color: white;
+    border-radius:15px;
+    width: 100px;
+  }
